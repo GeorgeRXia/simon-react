@@ -1,0 +1,49 @@
+
+
+.simon {
+	position: relative;
+	width: 300px;
+	height: 300px;
+
+	border-radius: 150px 150px 150px 150px;
+
+}
+.red, .blue, .yellow, .green {
+	height: 290px;
+	border-radius: 150px 150px 150px 150px;
+	position: absolute;
+
+  border: 1px solid black;
+}
+
+.red{
+  background: red;
+	clip: rect(0px, 300px, 150px, 150px);
+	width: 296px;
+
+}
+
+.blue {
+	background: blue;
+	clip: rect(0px, 150px, 150px, 0px);
+	width: 300px;
+}
+
+.yellow {
+	background: yellow;
+	clip: rect(150px, 150px, 300px, 0px);
+	width: 300px;
+}
+
+.green {
+	background: green;
+	clip: rect(150px,300px, 300px, 150px);
+	width: 296px;
+}
+
+
+.highlight{
+
+	opacity: 0.5;
+
+}
