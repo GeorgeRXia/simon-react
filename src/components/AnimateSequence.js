@@ -31,7 +31,7 @@ function AnimateSequence(props){
 
 
     }, index * 1000);
-    // highLight.classList.add("highlight");
+    
 
     console.log(highLight);
 

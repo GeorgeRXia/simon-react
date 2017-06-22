@@ -76,7 +76,7 @@ class Simonwheel extends Component {
   }
 
   playerMoves(event){
-    let highLightId = event.target.id
+
 
     let highLight = document.getElementById(highLightId);
     setTimeout(function(){
